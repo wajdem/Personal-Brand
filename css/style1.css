@@ -1,0 +1,58 @@
+
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.navigation{
+
+    margin-right: 75px;
+    font-size: 1.1em;
+    font-weight: 500;
+
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #6011cf;
+    text-decoration: underline;
+}
+#text-about{
+    font-size: 100px;
+}
+#text{
+    font-size: 40px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+
+}
+#skills{
+
+    display: grid;
+    grid-template-columns: 10px 400px 600px 450px 10px;
+    grid-template-rows: 300px 300px;
+}
+#Desiger{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#code{
+    grid-column-start: 4;
+    grid-row-start: 1;
+
+}
+#imge{
+    grid-column-start: 3;
+    width: 450px;
+    grid-row-start: 1;
+}
+span{
+    font-size: 75px;
+
+}

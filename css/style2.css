@@ -1,0 +1,115 @@
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.navigation{
+
+    margin-right: 75px;
+    font-size: 1.1em;
+    font-weight: 500;
+
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #6011cf;
+    text-decoration: underline;
+}
+#text-contact{
+    font-size: 70px;
+}
+.box-contact{
+    display: grid;
+    justify-content: flex-start;
+}
+p.number {
+    display: block;
+
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+p.email{
+    display: block;
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+#icon-div{
+    display: grid;
+    text-align: center;
+    font-size: 50px;
+}
+#icon-div a{
+    text-decoration: none;
+    color: black;
+}
+#hr{
+    display: grid;
+    grid-template-rows: 10px 100px 150px;
+    grid-template-columns: 50px auto auto auto 50px;
+}
+#hr-1{
+grid-column-start:2 ;
+grid-row-start:1 ;
+margin-top: 120px;
+}
+#hr-2{
+    grid-column-start:4 ;
+    grid-row-start:1 ;
+    margin-top: 120px;
+}
+#designer{
+    grid-column-start:3 ;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-size: 60px;
+    margin-top: 83px;
+    margin-right: -120px;
+}
+
+.box{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    margin-bottom: 9px;
+    font-size: 28px;
+}
+.container-box form{
+     box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    width: 80%;
+    padding: 40px 50px;
+}
+.container-box{
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    width: 95%;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.submit{
+    margin-left: 50%;
+}
